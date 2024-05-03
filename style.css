@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: black;
+  color: #242424;
   text-decoration: none;
 }
 
@@ -20,11 +20,22 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-p {
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
   font-size: 1.1em;
+  color: #f9f8ff;
 }
 
 .en-tete,
 .pied-de-page {
   background-color: white;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
 }
