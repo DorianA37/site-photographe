@@ -1,10 +1,12 @@
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
+  background-color: #1f2039;
 }
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 em {
@@ -20,4 +22,9 @@ h1 {
 
 p {
   font-size: 1.1em;
+}
+
+.en-tete,
+.pied-de-page {
+  background-color: white;
 }
