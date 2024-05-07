@@ -36,3 +36,47 @@
 .accueil-introduction div {
   padding-right: 80px;
 }
+
+.section-contact h2 {
+  color: #a5b4fc;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  margin: auto;
+  color: white;
+}
+
+.form-nom-mail {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+  resize: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
