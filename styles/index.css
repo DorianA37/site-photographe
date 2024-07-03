@@ -41,3 +41,41 @@
   color: #a5b4fc;
   text-align: center;
 }
+
+form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+.form-nom-mail {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  border-radius: 3px;
+  padding: 15px;
+  border: none;
+}
+
+label {
+  margin-bottom: 15px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
